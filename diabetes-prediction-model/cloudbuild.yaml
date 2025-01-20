@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: [ 'build', '-t', 'us-central1-docker.pkg.dev/qwiklabs-gcp-02-816e025829d7/diabetes-prediction-model/diabetes-prediction-model:latest', '.' ]
+images:
+- 'us-central1-docker.pkg.dev/qwiklabs-gcp-02-816e025829d7/diabetes-prediction-model/diabetes-prediction-model:latest'
